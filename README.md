@@ -19,8 +19,16 @@
 - [Contributors](#contributors)
 
 ## Problem Statement
+To develop a solution that optimizes flight navigation by integrating real-time data to identify safe routes and provide real-time risk assessments.</br>
+
 
 ## Proposed Solution
+-Platform for Pilots and Airline Operators</br>
+-A web application optimizing flight navigation by integrating real-time data for safe route identification and risk assessments.</br>
+-Real-Time Tracking: Pilots can track optimal paths, view current weather conditions, and monitor flight health reports from sensors.</br>
+-Comprehensive Access: Airlines have complete access to viewing flight data and navigation updates.</br>
+-Authentication features</br>
+-Interactive Dashboard: Features an interactive and responsive dashboard for meaningful insights and decision-making.</br>
 
 ## Technologies used
 - Frontend: <br/>
