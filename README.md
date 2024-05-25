@@ -33,36 +33,36 @@
   Framework- Node, Express
   Authentication - JWT
   
-- Database: MongoDB
-- Python Flask
+- Database: MongoDB </br>
+- Python Flask </br>
 
 ### About The Application
 
- Summary of each API endpoint:
- Socket endpoints  - 
+ Summary of each API endpoint: </br>
+ Socket endpoints  - </br>
 
 
-socket = io(import.meta.env.VITE_SOCKETURL,{}) :-  Imports the io function from       the socket.io-client library. This function is used to create a Socket.IO client instance.
-socket.emit('airportData') :-  The client is requesting data related to airports from the server.
-socket.on("airportData",(){} ) :-  Server is listening and will send data related to airports when this event occurs.
-socket.on("simulationResponse",{} ) :-  Server is listening and  will respond with simulation data in response to a request or action
-socket.on("simulationUpdate",(){} ) :-   Server will send updates related to the simulation.
-socket.off("simulationUpdate") :-  Removes the event listener for the simulationUpdate event 
-socket.on('updateActiveSimulations', (){} ) :- Server will send updates related to active simulations.
-socket.off("airportData") :-  Removes the event listener for the airportData event 
-socket.off("simulationResponse") :-   Removes the event listener for the simulationResponse event 
+socket = io(import.meta.env.VITE_SOCKETURL,{}) :-  Imports the io function from       the socket.io-client library. This function is used to create a Socket.IO client instance.</br>
+socket.emit('airportData') :-  The client is requesting data related to airports from the server.</br>
+socket.on("airportData",(){} ) :-  Server is listening and will send data related to airports when this event occurs.</br>
+socket.on("simulationResponse",{} ) :-  Server is listening and  will respond with simulation data in response to a request or action </br>
+socket.on("simulationUpdate",(){} ) :-   Server will send updates related to the simulation.</br>
+socket.off("simulationUpdate") :-  Removes the event listener for the simulationUpdate event </br>
+socket.on('updateActiveSimulations', (){} ) :- Server will send updates related to active simulations.</br>
+socket.off("airportData") :-  Removes the event listener for the airportData event </br>
+socket.off("simulationResponse") :-   Removes the event listener for the simulationResponse event </br>
 
 
-socket.emit("startSimulation", (){} ) :-  Trigger the server to start a simulation process.
-socket.emit("pauseSimulation") :-  Pause the simulation process.
-socket.emit("resumeSimulation") :-  Resume the simulation process.
-socket.emit("stopSimulation") :-  Stop the simulation process
-io.on("connection", (socket) {} ) :-  Establish the socket connection between the server and the newly connected client.
-socket.on("startSimulation", (){} ) :-  Start the simulation to send the aeroplane data to the client
+socket.emit("startSimulation", (){} ) :-  Trigger the server to start a simulation process.</br>
+socket.emit("pauseSimulation") :-  Pause the simulation process. </br>
+socket.emit("resumeSimulation") :-  Resume the simulation process. </br>
+socket.emit("stopSimulation") :-  Stop the simulation process </br>
+io.on("connection", (socket) {} ) :-  Establish the socket connection between the server and the newly connected client. </br>
+socket.on("startSimulation", (){} ) :-  Start the simulation to send the aeroplane data to the client </br>
 
 
 HTTP endpoints  -
-http.createServer(app) :- create an HTTP server in Node.js, using the core http module.
+http.createServer(app) :- create an HTTP server in Node.js, using the core http module. </br>
 
 app.use("/api/v1/users", userRoutes) :- mounting the userRoutes middleware or sub-application to the path "/api/v1/users".
 
@@ -82,18 +82,18 @@ router.get('/user/:userName', getUserReports) :- it invokes the getUserReports f
 
 Install project dependencies: 
 
-Client
-npm init –y
-npm install
-npm run dev
+Client </br>
+npm init –y </br>
+npm install </br>
+npm run dev </br>
 
-Backend (Nodejs Server)
-npm init –y
-npm install
-nodemon server.js
+Backend (Nodejs Server)</br>
+npm init –y</br>
+npm install</br>
+nodemon server.js</br>
 
-Flask Server
-python app.py
+Flask Server</br>
+python app.py</br>
 
 
 
